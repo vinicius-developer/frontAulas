@@ -1,0 +1,42 @@
+/*
+seletor {
+    propriedade: valor;
+}
+
+seletor: propriedade que eu quero alterar
+propriedade: o que eu quero alterar
+valor: é o valor que a propriedade deve ter
+*/
+
+div {
+    width: 100px; /* usado para largura de objetos pode ser definido em
+    px, %, vw  entre outros*/
+    height: 100px; /* usado para tamanho de objetos pode ser definido em
+    px. %, vw, entre outros */
+    background-color: blueviolet; /* usado para cores de fundo pode ser definido
+    por nome, hex, rgb, rgba */
+}
+
+nav {
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+}
+
+header {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+/* para chamar um id usamos a # */
+#caixa {
+    background-color: #222cce;
+}
+
+/* para chamar uma classe usamos . */
+
+.caixa-class {
+    background-color: red;
+    margin: auto
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 1</title>
+</head>
+<body>
+    <!-- Formulário -->
+    <!-- 
+        action é o caminho para 
+        onde os dados vão
+    -->
+    <form action="">
+        <!-- conteúdo do formulário -->
+        <!-- 
+            label = rótulo --- leitores de tela - acessibilidade 
+            for = indeficação ligada ao id
+        -->
+        <label for="nome_cliente">Nome: </label>
+        <!-- para fechar uma tag self-close  -->
+        <!-- 
+            type = tipo de texto de entrada
+            name = associação com label (não coloque names iguais)
+            placeholder = insira um texto fastasma 
+            maxlength = numero máximo de caractéres possíveis de 
+            serem introduzidos no input
+            minlength = minímo de caracteres que podem ser introduzidos
+            naquele campo
+            size = largura do input
+            required = se o campo é obrigátoria ser escrito ou não
+            id = idetificador único para a tag
+        -->
+
+        <!-- text = tipo para armazenar strings -->
+        <input type="text" name="nome_cliente" placeholder="digite seu nome"
+        maxlength="10" minlength="5" size="50" id="nome_clinte" required> <br>
+        <br>
+
+        <!-- date = tipo para armazenar datas -->
+
+        <label for="data_nacimento">Nascimento: </label>
+        <input type="date" name="data_nacimento">
+
+        <!-- time = tipo para armazenar tempo -->
+
+        <label for="tempo">Hora:</label>
+        <input type="time" nome="tempo">
+        <br><br>
+
+        <!-- password = tipo para armazenar senhas -->
+
+        <label for="password">Senha</label>
+        <input type="password" maxlength="8">
+        <br><br>
+
+        <!-- radio = tipo para rádio buttons -->
+
+        <label for="sexo">indique o sexo da pessoa</label>
+        <br>
+        <input type="radio" name="sexo" value="M" >
+        <label for="">Masculino</label>
+        <br>
+        <input type="radio" name="sexo" values="F">
+        <label for="">Feminino</label>
+        <br>
+        <input type="radio" name="sexo" values="O">
+        <label for="">Outros</label>
+        <br>
+        <br>
+
+        <input type="checkbox" value="vt">
+        <label for="">vale transporte</label>
+        <br>
+        <input type="checkbox" value="vr">
+        <label for="">vale refeição</label>
+        <br>
+        <input type="checkbox" value>
+        <label for="">Convenio médico</label>
+        <br>
+
+
+        <!-- sempre que você usar a type que não exites ele usa o tupo texto -->
+
+
+
+
+    </form>
+</body>
+</html>
