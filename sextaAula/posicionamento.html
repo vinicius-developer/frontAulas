@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>posicionamento</title>
+        <!-- 
+            também podemos dar estilos ao documento de forma interna 
+            usando tag style 
+
+            ela até pode ser colocada em outro lugar, mas o padrã é o 
+            header
+        -->
+        <style>            
+        * { /* esse seletor é usado para todos os elementos */
+            box-sizing: border-box; /* propriedade que decide se o border
+            faz parte do tamanho ou não */
+
+            /* isso é chamado de reset pq ele reseta o css do computador */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            width: 400px;
+            margin: 0 auto; 
+            background-color: orchid;
+        }
+
+        section {
+            width: 200px;
+            height: 200px;
+            /* margin:0 auto; */
+            /* overflow: auto;  esconde ou cria uma barra de rolagem no objeto */
+            border: 1px solid black;
+            /*float: left; forma antiga */
+
+        }
+
+        #verde {
+            background-color: green;
+        }
+
+        #laranja {
+            background-color: orange;
+        }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <section id="verde">
+                
+            </section>
+            <section id="laranja">
+                
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </header>
+    </body>
+</html>

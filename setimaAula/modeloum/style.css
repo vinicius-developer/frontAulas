@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    /* margin auto so funciona se houver uma largura definida */
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* 
+    flex-direction: row;
+        flex wrap faz sempre que os elementos ultrapassarem a largura definida 
+        no flex box ser cortado para linha seguinte
+    flex-wrap: wrap;
+    */
+    /* podemos substituir flex-direction e flex wrap pelo flex-flow: ; */
+    flex-flow: row wrap;
+} 
+
+header {
+    width: 1200px;
+    height: 185px;
+    background-color: pink;
+}
+
+nav {
+    width: 1200px;
+    height: 70px;
+    background-color: aqua;
+}
+
+aside {
+    width: 280px;
+    height: 1000px;
+    background-color: blueviolet;
+}
+
+section {
+    width: 920px;
+    height: 1000px;
+    background-color: green;
+}
+
+footer {
+    width: 1200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+    

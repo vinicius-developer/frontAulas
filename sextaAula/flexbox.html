@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        /*flexbox - tem que ter um pai e no minimo um filho */
+        /* Nesse caso a section é o elemento pai */
+        section {
+            width: 500px;
+            height: 200px;
+            background-color: blue;
+            display: flex;
+            flex-direction: column; /* diz como os objetos vão ser apresentados  */
+        }
+
+        #A1 {
+            background-color: pink;
+        }
+        #A2 {
+            background-color: brown;
+        }
+        #A3 {
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <article id="A1">Article1</article>
+        <article id="A2">Article2</article>
+        <article id="A3">Article3</article>
+    </section>
+    
+</body>
+</html>
