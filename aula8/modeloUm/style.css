@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    width: 1500px;
+    height: 120px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 1500px;
+    height: 520px;
+    background-color: rgb(10, 134, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 750px;
+    height: 950px;
+}
+
+#article1 {background-color: wheat;}
+#article2 {background-color: rgb(168, 152, 122);}
+
+section {
+    width: 1500px;
+    height: 950px;
+    background-color: rgb(98, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 375px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    background-color: rgb(47, 75, 75);
+}
+.div2 {
+    background-color: rgb(77, 121, 121);
+}
+
+footer {
+    width: 1500px;
+    height: 100px;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

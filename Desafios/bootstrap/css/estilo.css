@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+/* font-family: 'IBM Plex Serif', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    height: 80px;
+    position: fixed;
+    background-color: #fd0;
+    z-index: 2;
+}
+
+.navbar {
+    width: 1140px;
+    height: 100%;
+    margin: auto
+}
+
+.box-svg svg{
+    width: 100px;
+}
+
+.st0 {
+    fill: #ffffff
+}
+
+/* box-one */
+
+.box-one {
+    background-color: #fd0;
+    height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 15%
+}
+
+.box-content-one {
+    width: 1170px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.small-text {
+    color: rgba(17, 17, 17, 0.657);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+}
+
+.big-text {
+    font-size: 60px;
+    font-family: 'IBM Plex Serif', serif;
+    color: black;
+    font-weight: bold;
+}
+
+.button-box-one {
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.top-bar {
+    margin: 0 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-bar > div{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin: 2px
+}
+
+.body-navegator {
+    width: 100%;
+    margin: 0 10px;
+    height: 360px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-video {
+    border-radius: 20px;
+}
+
+/* BOX-TWO */
+
+.box-two {
+   height: 1130px; 
+   background-image: url("../img/features.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   max-height: 1130px;
+}
+
+.box-two > .container {
+    max-height: 620px;
+}
+
+.box-two-content {
+    width: 720px;
+    height: 470px;
+    margin: 0 auto;
+    max-height: 470px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px 0 0 40px ;
+    position: relative;
+}
+
+.box-two-content > .col-12 >h2{
+    font-family: 'IBM Plex Serif', serif; 
+    width: 430px;
+    color: #fd0;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.box-two-content > .col-12 > span{ 
+    font-family: 'PT Sans', sans-serif; 
+    color: #fff;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+
+.box-two-content::after {
+    content: '';
+    position: absolute;
+    background-image: url("../img/cards.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 412px;
+    height: 372px;
+    right: -100px;
+    bottom: 30px;
+    z-index: 1;
+}
+
+.box-two-list {
+    margin-top: 85px;
+    height: 120px;
+    width: 100%;
+    background-color: #fd0;
+    border-radius: 30px;
+    padding: 2em;
+}
+
+.box-two-list ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.box-two-list ul li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-two-list ul li p{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'IBM Plex Serif', serif; 
+    margin: 0;
+}
+
+
+.box-two-list ul li p span{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* BOX-THREE */
+
+.box-three {
+    max-height: 1130px;
+    padding: 170px;
+    color: #f7f7f7;
+}
+
+.box-three .container {
+    max-width: 1048px;
+    min-height: 912px;
+}
+
+.text-box-three h2 span{
+    font-size: 0.5em;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 28px;
+}
+
+.text-box-three h2{
+    color: #000;
+    font-size: 4.6875rem;
+    font-family: 'IBM Plex Serif', serif;
+    line-height: 79px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.text-box-three p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.img-box-three {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.img-box-three > img{
+    width: 494px;
+}
+
+.img-box-three::after {
+    content: "";
+    width: 197px;
+    height: 197px;
+    background-image: url("../img/selo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.cards-box-three > .col-3 > .card{
+    border-radius: 50px;
+    -webkit-box-shadow: 1px 0px 16px 5px rgba(0,0,0,0.13); 
+    box-shadow: 1px 0px 16px 5px rgba(0,0,0,0.13);
+}
+
+.cards-box-three > .col-3 > .card > svg{
+    margin: 0 auto;
+}
+
+.box-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.box-buttons .button-box-one{
+    height: 55px;
+    width: 243px;
+    color: #fff;
+}
+
+/* BOX-FOUR */
+
+.box-four{
+    width: 100%;
+    height: 642px;
+    background-color: #fd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-four .container {
+    width: 1048px;
+    height: 602px;
+}
+
+.content-box-four {
+    display:flex;
+    align-items: center;
+    justify-content:center
+}
+
+.img-box-four img {
+    width: 500px;
+}
+
+.text-box-four {
+
+}
+
+.text-four {
+    width: 548px;
+    height: 458px;
+    background-color: #fff;
+    border-radius: 80px;
+    padding: 3em;
+}
+
+.text-four > h2{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 71px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 80px;
+}
+
+.text-four p{
+    font-size:  1.5625rem;
+}
+
+.text-four div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-four div button{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 369px;
+    background-color: #f4f4f4;
+}
+
+footer .col-12 {
+    margin: 0;
+    height: 369px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+footer svg{
+    width: 200px;
+}
+
+
+
+
+
+
