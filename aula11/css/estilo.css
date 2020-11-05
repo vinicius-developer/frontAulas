@@ -1,0 +1,32 @@
+
+section {
+    height: 400px;
+    width: 80%;
+    background-color: yellowgreen;
+    margin: 0 auto;
+}
+
+
+/*
+desktop first - começar a desenvolver o site pelo desktop
+
+mobile first - começar a desenvolver o site pelo mobile
+
+
+sintaxe
+    @media(condição) {
+        formatação
+    }
+
+    podemos usar comandos lógicos tambem
+
+    @media(condição)  and (condição){
+        formatação
+    }
+*/
+
+@media (max-width: 800px) {
+    section {
+        background-color: red;
+    }
+}
