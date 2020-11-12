@@ -8,6 +8,4 @@ document.querySelector('#trigger').addEventListener('click', () => {
 			document.write(value + ' x ' + i + ' = ' + (value*i) + '<br>')
 		}
 	}
-
-
 })

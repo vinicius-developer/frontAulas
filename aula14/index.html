@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validação de senha</title>
+</head>
+<body>
+    <main>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email">
+        <br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha">
+        <div class="message_error"></div>
+        <br><br>
+
+        <label for="senha_confirmation">Confirma a senha:</label><br>  
+        <input type="password" id="senha_confirmation">
+        <div class="message_error"></div>
+        <br><br>
+
+        <input type="submit" value="enviar" id="enviar">
+        <div id="message_success"></div>
+    </main>
+    <script src="js/main.js"></script> 
+</body>
+</html>
